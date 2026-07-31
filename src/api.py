@@ -12,7 +12,7 @@ app = FastAPI(
     version="1.0"
 )
 
-MODEL_PATH = "models/rock_paper_scissors_model.h5"
+MODEL_PATH = "models/rock_paper_scissors_model_updated.keras"
 
 if not os.path.exists(MODEL_PATH):
     raise FileNotFoundError(
@@ -108,14 +108,6 @@ async def upload_training_data(
 
 @app.post("/retrain")
 def retrain():
-
-    """
-    This is a placeholder.
-    Later you will call your retraining function here.
-    Example:
-        from retrain import trigger_retraining
-        trigger_retraining()
-    """
 
     print("Retraining model...")
 
