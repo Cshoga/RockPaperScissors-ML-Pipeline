@@ -71,8 +71,12 @@ if menu == "Prediction":
                 )
 
             else:
+                st.error(f"Prediction failed! Status code: {response.status_code}")
 
-                st.error("Prediction failed.")
+                try:
+                    st.write(response.json())
+                except Exception:
+                    st.write(response.text)
 
 # ---------------------------------------
 # Model Status
