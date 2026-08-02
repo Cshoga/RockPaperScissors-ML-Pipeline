@@ -46,17 +46,17 @@ if menu == "Prediction":
         if st.button("Predict"):
 
             files = {
-    "file": (
-        uploaded_file.name,        
-        uploaded_file.getvalue(),  
-        uploaded_file.type         
-    )
-}
+                "file": (
+                    uploaded_file.name,
+                    uploaded_file.getvalue(),
+                    uploaded_file.type
+                )
+            }
 
-response = requests.post(
-    API_URL + "/predict",
-    files=files
-)
+            response = requests.post(
+                API_URL + "/predict",
+                files=files
+            )
 
             if response.status_code == 200:
 
