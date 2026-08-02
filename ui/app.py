@@ -8,11 +8,10 @@ API_URL = "http://127.0.0.1:8000"
 
 st.set_page_config(
     page_title="Rock Paper Scissors Classifier",
-    page_icon="✋",
     layout="wide"
 )
 
-st.title("✋ Rock Paper Scissors Classification")
+st.title("Rock Paper Scissors Classification")
 
 menu = st.sidebar.selectbox(
     "Navigation",
