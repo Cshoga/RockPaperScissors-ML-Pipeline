@@ -46,7 +46,7 @@ async def predict(file: UploadFile = File(...)):
     try:
 
         image = Image.open(file.file).convert("RGB")
-        image = image.resize((150, 150))
+        image = image.resize((224, 224))
 
         image_array = np.array(image)
         image_array = image_array / 255.0
