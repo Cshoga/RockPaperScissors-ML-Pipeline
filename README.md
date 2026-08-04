@@ -1,5 +1,5 @@
 # RockPaperScissors-ML-Pipeline
-##Project Description
+# Project Description
 
 This project is a Machine Learning Classification Pipeline that predicts whether an uploaded image represents Rock, Paper, or Scissors.
 
