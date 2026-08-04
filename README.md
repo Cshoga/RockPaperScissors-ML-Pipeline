@@ -41,8 +41,15 @@ Additional personal images were also included to improve model performance.
 <img width="419" height="502" alt="image" src="https://github.com/user-attachments/assets/f4738989-8af3-49ef-ae21-a9be5d0d0533" />
 
 ## Installation
-### Clone the repository
+#### Clone the repository
 git clone https://github.com/Cshoga/RockPaperScissors-ML-Pipeline.git
+#### Install dependencies
+pip install -r requirements.txt
+#### Run the API
+uvicorn src.api:app --reload
+#### Run Streamlit
+streamlit run ui/app.py
+
 ## Model evaluation
 <img width="460" height="266" alt="image" src="https://github.com/user-attachments/assets/cb40f845-22af-4201-b98e-53c0b763af5b" />
 
