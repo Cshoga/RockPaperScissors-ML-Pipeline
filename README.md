@@ -38,12 +38,43 @@ Additional personal images were also included to improve model performance.
 - API Health Monitoring
 
 ## Repository Structure
-notebook/
-src/
-ui/
-models/
-images/
-data/
+RockPaperScissors-ML-Pipeline/
+│
+├── README.md
+│
+├── notebook/
+│   └── RockPaperScissors_ML_Pipeline.ipynb
+│
+├── src/
+│   ├── api.py
+│   ├── model.py
+│   ├── prediction.py
+│   ├── preprocessing.py
+│   └── retrain.py
+│
+├── ui/
+│   └── app.py
+│
+├── data/
+│   ├── train/
+│   ├── test/
+│   └── new_data/
+│
+├── images/
+│   ├── class_distribution.png
+│   ├── training_accuracy.png
+│   ├── training_loss.png
+│   └── confusion_matrix.png
+│
+├── models/
+│   └── rock_paper_scissors_model.keras
+│
+├── requirements.txt
+├── render.yaml
+├── locust/
+│   └── locustfile.py
+│
+└── .gitignore
 
 ## Installation
 ### Clone the repository
