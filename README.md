@@ -42,4 +42,22 @@ Additional personal images were also included to improve model performance.
 
 ## Installation
 ### Clone the repository
+git clone https://github.com/Cshoga/RockPaperScissors-ML-Pipeline.git
+## Model evaluation
+<img width="460" height="266" alt="image" src="https://github.com/user-attachments/assets/cb40f845-22af-4201-b98e-53c0b763af5b" />
 
+## Visualizations
+
+### The project includes:
+- Class Distribution
+- Training Accuracy
+- Training Loss
+- Confusion Matrix
+
+## Video Demonstration
+#### YouTube Link:
+
+## Deployment
+#### API URL: 
+
+## Author: CELINE SHOGA
