@@ -38,8 +38,7 @@ Additional personal images were also included to improve model performance.
 - API Health Monitoring
 
 ## Repository Structure
-<img width="273" height="497" alt="image" src="https://github.com/user-attachments/assets/320f0397-51d7-4ead-b71c-93d2f80234c6" />
-
+<img width="419" height="502" alt="image" src="https://github.com/user-attachments/assets/f4738989-8af3-49ef-ae21-a9be5d0d0533" />
 
 ## Installation
 ### Clone the repository
